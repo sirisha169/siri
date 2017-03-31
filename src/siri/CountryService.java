@@ -48,7 +48,14 @@ public class CountryService {
 	  countryIdMap.put(country.getId(), country);
 	  return country;
 	 }
+	 public Country updateCountry(Country country)
+	 {
+	  if(country.getId()<=0)
+	   return null;
+	  countryIdMap.put(country.getId(), country);
+	  return country;
 	 
+	 }
 	
 	 public void deleteCountry(int id)
 	 {
