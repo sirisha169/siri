@@ -14,7 +14,7 @@ import javax.ws.rs.core.Response;
 import org.json.JSONException;
 import org.json.JSONObject;
 
-@Path("/test")
+@Path("/countries")
 public class Test {
 	
 	CountryService countryService=new CountryService();
